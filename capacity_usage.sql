@@ -1,5 +1,5 @@
 /*
-A view for capacity usage 
+A query for overall capacity usage 
 
 Example result: 
 
