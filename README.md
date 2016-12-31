@@ -4,6 +4,8 @@
 AWS have a great repo with great Redshift utilities.
 You should check it out: https://github.com/awslabs/amazon-redshift-utils
 
+This repo contains more useful queries and views that I use on a daily basis.
+
 All views assume you have a schema called admin.
 
 | Query/View | Description |
