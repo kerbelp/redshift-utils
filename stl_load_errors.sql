@@ -1,5 +1,5 @@
  /*
- A query displaying stl_load_errors by day.
+ A query displaying stl_load_errors by error by day.
  
  result example:
  
