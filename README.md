@@ -18,5 +18,6 @@ All views assume you have a schema called admin.
 | [select_run_time.sql](select_run_time.sql) | Query displaying yesterdays average select query runtime in seconds |
 | [stl_load_errors.sql](stl_load_errors.sql) | Query displaying stl_load_errors by error by day |
 | [v_table_locks.sql](v_table_locks.sql) | View for displaying locks by users |
+| [v_tables_to_vacuum.sql](v_tables_to_vacuum.sql) | View for displaying recommended tables to vacuum |
 | [v_usage_by_schema.sql](v_usage_by_schema.sql) | View for displaying space usage by schema |
 | [v_usage_by_table.sql](v_usage_by_table.sql) | View for displaying space usage by table |
