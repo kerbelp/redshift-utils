@@ -1,10 +1,10 @@
  /*
- A view for displaying locks by users.
+ View for displaying locks by users.
  
  example:
  select * from admin.v_table_locks
 
- +----------+---------------+----------+-------------+-------+---------+-----------------+---------+
++----------+---------------+----------+-------------+-------+---------+-----------------+---------+
 |  timetz  |    relname    | database | transaction |  pid  | usename |      mode       | granted |
 +----------+---------------+----------+-------------+-------+---------+-----------------+---------+
 | 17:39:16 | v_table_locks |   100072 |             | 19723 | admin   | AccessShareLock | true    |

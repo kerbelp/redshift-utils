@@ -21,3 +21,5 @@ All views assume you have a schema called admin.
 | [v_tables_to_vacuum.sql](v_tables_to_vacuum.sql) | View for displaying recommended tables to vacuum |
 | [v_usage_by_schema.sql](v_usage_by_schema.sql) | View for displaying space usage by schema |
 | [v_usage_by_table.sql](v_usage_by_table.sql) | View for displaying space usage by table |
+| [v_vacuum_jobs_summary.sql](v_vacuum_jobs_summary.sql) | View for displaying vacuum status |
+
