@@ -14,7 +14,7 @@
 
 CREATE OR REPLACE VIEW admin.v_vacuum_jobs_summary
 AS 
- SELECT DISTINCT us.username, perm.name, vac.eventtime, trunc(vac.eventtime) AS date, vac.status, vac."rows", vac.sortedrows
+ SELECT DISTINCT us.usename, perm.name, vac.eventtime, trunc(vac.eventtime) AS date, vac.status, vac."rows", vac.sortedrows
    FROM stl_vacuum vac
    JOIN stv_tbl_perm perm ON perm.id = vac.table_id
    JOIN pg_user us ON us.usesysid = vac.userid
