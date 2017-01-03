@@ -17,6 +17,7 @@ All views assume you have a schema called admin.
 | [running_queries.sql](running_queries.sql) | Query displaying runninq queries |
 | [select_run_time.sql](select_run_time.sql) | Query displaying yesterdays average select query runtime in seconds |
 | [stl_load_errors.sql](stl_load_errors.sql) | Query displaying stl_load_errors by error by day |
+| [v_encoded_columns_percentage.sql](v_encoded_columns_percentage.sql) | View for displaying percentage of encoded columns |
 | [v_table_locks.sql](v_table_locks.sql) | View for displaying locks by users |
 | [v_tables_to_vacuum.sql](v_tables_to_vacuum.sql) | View for displaying recommended tables to vacuum |
 | [v_usage_by_schema.sql](v_usage_by_schema.sql) | View for displaying space usage by schema |
